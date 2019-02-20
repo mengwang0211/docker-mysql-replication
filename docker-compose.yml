@@ -11,7 +11,7 @@ services:
    environment:
     MYSQL_ROOT_PASSWORD: vcredit_o2o
    ports:
-   - 3307:3306
+   - 33061:3306
    container_name: o2o-mysql-master
    mem_limit: 8g
 
@@ -26,7 +26,7 @@ services:
    environment:
     MYSQL_ROOT_PASSWORD: vcredit_o2o
    ports:
-   - 3308:3306
+   - 33062:3306
    container_name: o2o-mysql-slave
    mem_limit: 8g
 
